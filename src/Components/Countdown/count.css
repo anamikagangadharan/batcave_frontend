@@ -1,0 +1,70 @@
+.countdown {
+    margin-top: 24px !important;
+    justify-content: space-between !important;
+    width: 240px !important;
+    /* margin-left: 14px; */
+}
+
+.date,
+.hour,
+.min,
+.sec {
+    text-align: center !important;
+    height: 50px !important;
+    width: 50px !important;
+}
+
+.hour {
+    margin: 0px !important;
+}
+
+
+
+.colon {
+    margin: 0px 20px 0 20px !important;
+    color: #fff !important;
+    opacity: 60% !important;
+    font-size: 18px !important;
+
+}
+
+.countdown .date .c1 {
+    height: 25.5px;
+
+}
+
+.countdown .hour .c1,
+.countdown .min .c1,
+.countdown .sec .c1 {
+    height: 25.5px;
+
+}
+
+.c1 {
+    color: #fff !important;
+    opacity: 60% !important;
+    font-size: 18px !important;
+    font-family: "Outfit" !important;
+
+}
+
+.c2 {
+    font-family: "Outfit" !important;
+    font-size: 8px !important;
+    color: #007AFF !important;
+    text-transform: uppercase;
+
+}
+
+.date .c2 {
+    margin: 0 !important;
+}
+
+@media screen and (min-width: 360px) and (max-width: 768px) {
+
+    .c2 {
+      margin-top: 0px !important;
+    
+    }
+
+}

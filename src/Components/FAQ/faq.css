@@ -1,0 +1,55 @@
+.FaqContainer {
+    color: #999999;
+    font-family: "Outfit";
+}
+
+.FaqContent div {
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+.FaqContent div:first-child {
+    font-family: "Barlow Condensed";
+    font-weight: 400;
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.FaqContent div:nth-child(2),
+.FaqContent div:nth-child(4),
+.FaqContent div:nth-child(6),
+.FaqContent div:nth-child(8),
+.FaqContent div:nth-child(10),
+.FaqContent div:nth-child(12),
+.FaqContent div:nth-child(14),
+.FaqContent div:nth-child(16),
+.FaqContent div:nth-child(18),
+.FaqContent div:nth-child(20){
+    color: #E0E0E0;
+    margin-top: 10px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 1024px) {
+
+
+    .FaqContent {
+        /* margin-top: 50px !important; */
+        /* margin-bottom: 150px !important; */
+        padding: 24px !important;
+
+    }
+
+    /* .navbar .container-fluid {
+        padding: 24px 0 24px 0 !important;
+    } */
+
+    .navbar {
+        margin: 0px 32px;
+    }
+
+    #HomeFooter{
+        margin-top: 0px ;
+    }
+}
